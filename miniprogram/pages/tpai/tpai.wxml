@@ -1,0 +1,14 @@
+<!--pages/tpai/tpai.wxml-->
+
+<view id="info">
+  <view id="urls">URL:</view>
+  <input id='inputs' value='{{url}}'></input>
+  <text id="connection"></text>
+  <checkbox></checkbox>
+</view>
+<textarea selectable="true" id='result' disabled="true">{{result}}</textarea>
+<button type='primary' bindtap='uploadImg'>选择图片</button>
+<button bindtap='play' type='primary'>播放</button>
+<button id='voice' bindtouchstart='start' bindtouchend='stop'>
+  <image src='../images/voice_.png'/>
+</button>

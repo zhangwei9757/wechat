@@ -1,0 +1,51 @@
+/* pages/tpai/tpai.wxss */
+button{
+  margin: 20rpx;
+}
+#info{
+  display: flex;
+  height: 25rpx;
+  line-height: 25rpx;
+  margin-top: 25rpx;
+  padding: 20rpx;
+}
+#urls{
+   line-height: 50rpx;
+   color: red;
+}
+#inputs{
+  width: 80%;
+  border-bottom: 1rpx solid green;
+}
+#result{
+  margin: 30rpx;
+  padding: 25rpx;
+  outline: 1rpx solid greenyellow;
+}
+#voice {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 75rpx;
+  position: absolute;
+  left: 38%;
+  line-height: 150rpx;
+  bottom: 100rpx;
+  background-image: '../images/voice.png'; 
+  background-color: #32CD32;
+  /* border: 1px solid black; */
+}
+
+image {
+  width: 86rpx;
+  height: 86rpx;
+  border-radius: 43rpx;
+  position: relative;
+  top: 25rpx;
+}
+
+textarea{
+
+  white-space: pre-wrap;
+  overflow: hidden;
+  /* text-overflow: ellipsis; */
+}
